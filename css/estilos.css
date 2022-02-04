@@ -1,0 +1,82 @@
+#navbarNav{
+    padding-right: 40px;
+}
+
+#foto1{
+    object-fit: cover;
+    width: 100%;
+    height:750px;
+}
+
+#oscurecerIMG{
+	filter: brightness(50%);
+}
+
+.textofoto{
+    width: 800px;
+    position:absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.card{
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+.card-group{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.fotobloque{
+    display: flex;
+}
+.carousel{
+    margin-top: 30px;
+    width: 50%;
+}
+
+.bloqueGris{
+    background: rgb(61, 60, 60);
+    margin-top: 30px;
+    width: 50%;
+    padding: 20px;
+}
+
+.formInvitacion{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.nombre{
+    /* display: inline-block; */
+    width: 48%;
+    margin-bottom: 10px;
+}
+
+.apellido{
+    /* display: inline-block; */
+    width: 48%;
+    float: right;
+    margin-bottom: 10px;
+    }
+
+#textarea1{
+    margin-bottom: 3px;
+}
+
+#btn-enviar-verde{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(145, 180, 93);
+    border-color:rgb(145, 180, 93);
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+}
